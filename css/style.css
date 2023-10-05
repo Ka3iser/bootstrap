@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color{
+    background: #eee;
+}
+
+.bg-secondary-color{
+    background: black;
+}
+
+/*NAVBAR*/
+#navbar{
+    border-bottom: 1px solid;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid#050505;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand span{
+    font-weight: 700;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .navbar-items{
+    margin: 0 1em;
+}
+
+main{
+    background: black;
+    height: 92vh;
+}
