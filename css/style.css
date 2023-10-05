@@ -40,8 +40,65 @@
 #navbar-items .navbar-items{
     margin: 0 1em;
 }
-
+/*slider*/
 main{
     background: black;
     height: 92vh;
 }
+#slider{
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span{
+    color: white;
+    font-size: 3em;
+}
+
+/*MINIBANNER*/
+#mini-banners{
+    margin-bottom: 4em;
+}
+
+#mini-banners .card{
+    padding: 2em 0.3em;
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+
+#mini-banners .card-tittle{
+    margin-bottom: 1.5em;
+}
+
+#mini-banners .btn{
+    margin-top: 1.5em;
+    padding: 0.6 1.2em;
+}
+
+@media (min-width: 768px){
+    #mini-banners{
+        margin-top: -6em;
+    }
+}
+
+/*DESTAQUES*/
+
+#feature-container{
+    margin-bottom: 4em;
+}
+
+.tittle{
+    font-size: 1.75em;
+    margin-bottom: 0.4em;
+    position: relative;
+}
+
+.tittle:before{
+    width: 75px;
+    border-top: 4px solid #7a7a7a;
+    content: "";
+    position: absolute;
+    bottom: 2em;
+}
+
