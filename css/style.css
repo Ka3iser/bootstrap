@@ -5,12 +5,30 @@
     font-family: 'Lato', sans-serif;
 }
 
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .bg-primary-color{
     background: #eee;
 }
 
-.bg-secondary-color{
+.bg-secundary-color{
     background: black;
+}
+
+.bg-dark-color{
+    background-color: #050505;
+}
+
+.primary-color{
+    color: white;
+}
+
+.secundary-color{
+    color: #7a7a7a;
 }
 
 /*NAVBAR*/
@@ -102,3 +120,33 @@ main{
     bottom: 2em;
 }
 
+/*info*/
+#info, #dados{
+    color: white;
+}
+
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-numbers{
+    margin: 1.5em 0;
+}
+
+#info-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3{
+    font-size: 3em;
+}
+
+@media(min-width: 768px){
+    #info-content{
+        padding: 3.5em;
+    }
+}
+    
